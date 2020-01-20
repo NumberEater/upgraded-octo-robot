@@ -5,20 +5,40 @@
 	<style>
 		body h1 {
 			font-family:fantasy;
+			-webkit-text-stroke:1px black;
+			color:red;
+			font-size:45px;
 		}
 		body ul li {
 			font-family: sans-serif;
+
+		}
+		body ul li:hover {
+			color:darkblue;
+			cursor:pointer;
+		}
+		#list {
+			border:10px solid gray;
+			padding:5px;
+			background-color:lightgray;
 		}
 	</style>
 </head>
 <body>
-	<h1>Shopping List:</h1>
-	<ul>
-		<li>Gloves</li>
-		<li>Soil</li>
-		<li>Shovel</li>
-		<li>Ladder</li>
-	</ul>
+	
+	<div id="list">
+		<h1>Shopping List:</h1>
+		<ul>
+			<li>Gloves</li>
+			<li>Soil</li>
+			<li>Shovel</li>
+			<li>Ladder</li>
+			<li>Milk</li>
+			<li>Bacon</li>
+			<li>Eggs</li>
+		</ul>
+	</div>
+
 
 </body>
 </html>
