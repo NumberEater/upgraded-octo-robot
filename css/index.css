@@ -5,6 +5,22 @@ body h1 {
 	font-size:45px;
 }
 
+
+		}
+		body ul li:hover {
+			color:darkblue;
+			cursor:pointer;
+		}
+		#list {
+			border:10px solid gray;
+			padding:10px;
+			background-color:lightgray;
+		}
+	#searchBar {
+		margin-left:30px;
+
+	}
+
 body ul li {
 	font-family: sans-serif;
 
@@ -20,3 +36,4 @@ body ul li:hover {
 	padding:5px;
 	background-color:lightgray;
 }
+
